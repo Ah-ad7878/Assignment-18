@@ -18,16 +18,41 @@ public class Main {
 //        AgeOfPerson age = new AgeOfPerson();
 //        age.input();
 //        age.output();
+//        System.out.println();
+//        Attendance attendance = new Attendance();
+//        System.out.print("Enter total class held in university: ");
+//        attendance.setClassHeld(sc.nextInt());
+//        System.out.print("Enter the classes which is attended by the student: ");
+//        attendance.setClassAttend(sc.nextInt());
+//
+//        attendance.output();
+
+//        System.out.println();
+//        Medical medical = new Medical();
+//        medical.input();
+//        medical.output();
+
+//        System.out.println();
+//        AbsoluteValue absoluteValue = new AbsoluteValue();
+//        System.out.print("Enter a no: ");
+//        absoluteValue.setNo(sc.nextInt());
+//        absoluteValue.output();
+
+//        System.out.println();
+//        Coordinatesystem c = new Coordinatesystem();
+//        c.input();
+//        c.output();
+
+//        System.out.println();
+//        Quadrant q = new Quadrant();
+//        q.input();
+//        q.output();
+
         System.out.println();
-        Attendance attendance = new Attendance();
-        System.out.print("Enter total class held in university: ");
-        attendance.setClassHeld(sc.nextInt());
-        System.out.print("Enter the classes which is attended by the student: ");
-        attendance.setClassAttend(sc.nextInt());
-
-        attendance.output();
-
-        //obtain/total*100 but in java obtain*100/total
+        Temperature temperature = new Temperature();
+        System.out.print("Enter temperature in centigrade: ");
+        temperature.setCentigrade(sc.nextShort());
+        temperature.output();
 
     }
 }
